@@ -1,0 +1,8 @@
+Test without OpenMP
+LoG Size: 1 Result: 0.0100788 Time: 159.24
+LoG Size: 100 Result: -3.78906e+06 Time: 187.29
+LoG Size: 10000 Result: -3.78906e+06 Time: 161.07
+Test with OpenMP
+LoG Size: 1 Result: 0.0100788 Time: 44.53
+LoG Size: 100 Result: -3.78906e+06 Time: 44.82
+LoG Size: 10000 Result: -3.78906e+06 Time: 49.26
