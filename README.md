@@ -8,13 +8,13 @@ So I tried to create a simple implementation of just what I needed, and the resu
 ```
 Python Size: 180x300    Time: 29139,738
 C++ Test without OpenMP (sequential)
-  Img Size: 1x1         Time: 0.0100788 Time: 159.24
-  Img Size: 100x100     Time: -3.78906e+06 Time: 187.29
-  Img Size: 10000x10000 Time: -3.78906e+06 Time: 161.07
+  Img Size: 1x1         Time: 159.24
+  Img Size: 100x100     Time: 187.29
+  Img Size: 10000x10000 Time: 161.07
 C++ Test with OpenMP (paralelized)
-  Img Size: 1x1          Time: 0.0100788 Time: 44.53
-  Img Size: 100x100      Time: -3.78906e+06 Time: 44.82
-  Img Size: 10000x10000  Time: -3.78906e+06 Time: 49.26
+  Img Size: 1x1          Time: 44.53
+  Img Size: 100x100      Time: 44.82
+  Img Size: 10000x10000  Time: 49.26
   
 (Note: times in microseconds)
 ```
