@@ -1,7 +1,7 @@
 # LoG
 This project is a small and quick implementation of the averaged Laplaccian of a Gaussian implementation in C++, using paralelism and SIMD optimization usign OpenMP.
 ## Why?
-I have been experimenting with the LoG as a meassure of difference between two images, for an upcomming project,and I was not very happy with the speed of the Python (OpenCV + Numpy).<br/>
+I have been experimenting with the LoG as a meassure of difference between two images, for an upcomming project,and I was not very happy with the speed of the Python implementation (OpenCV + Numpy).<br/>
 So I tried to create a simple implementation of just what I needed, and the results speaks for themselves!,<br/>
 (And also, I needed to put my mind on other things during exams...!)
 ## Benchmarks
